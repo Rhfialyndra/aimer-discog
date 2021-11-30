@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities {
+    .snap {
+        scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
+      }
+      .snap-y {
+        --scroll-snap-direction: y;
+      }
+      .snap-mandatory {
+        --scroll-snap-constraint: mandatory;
+      }
+      .snap-start {
+        scroll-snap-align: start;
+      }
+};
+@layer utilities {
+    .h-255 {
+      height: 255px;
+    }
+  }

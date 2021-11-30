@@ -1,0 +1,15 @@
+body {
+    @apply bg-gray-50;
+}
+
+.bio-wrapper {
+    @apply flex;
+}
+
+.hide-scroll-bar {
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+  }
+.hide-scroll-bar::-webkit-scrollbar {
+     display: none;
+  }
