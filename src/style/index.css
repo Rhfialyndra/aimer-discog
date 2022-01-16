@@ -2,22 +2,24 @@
 
 @tailwind base;
 @tailwind components;
-@tailwind utilities {
-    .snap {
-        scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
-      }
-      .snap-y {
-        --scroll-snap-direction: y;
-      }
-      .snap-mandatory {
-        --scroll-snap-constraint: mandatory;
-      }
-      .snap-start {
-        scroll-snap-align: start;
-      }
-};
-@layer utilities {
-    .h-255 {
-      height: 255px;
+@tailwind utilities;
+
+@layer components {
+
+
+    .noSelect {
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
-  }
+
+    .noSelect:focus { 
+        outline: none !important;
+    }
+
+    
+}
