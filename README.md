@@ -31,19 +31,24 @@ src/
     index.js
 
 ```
+  
+  
 
-* img_data
-storage for all image shown in the webapp
+* img_data  
+    storage for all image shown in the webapp
 
-* components/
-contains all parts / smaller component to be mounted on homepage.js
+* components  
+    contains all parts / smaller component to be mounted on homepage.js
 
-* style
-contains external font and css for `<body>`
+* style  
+    contains external font and css for `<body>`
 
-* pseudoDB
-substitute of real remote database. all writen in js object format.
+* pseudoDB  
+    substitute of real remote database. all writen in js object format.
 
-* homepage.js
-placeholder / frame to put all the components together
+* homepage.js  
+    placeholder / frame to put all the components together
 
+  
+  
+see [aimer-discog](https://aimer-discog.netlify.app)
