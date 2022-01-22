@@ -32,18 +32,18 @@ src/
 
 ```
 
-* img_data
+* img_data  
     storage for all image shown in the webapp
 
-* components/
+* components  
     contains all parts / smaller component to be mounted on homepage.js
 
-* style
+* style  
     contains external font and css for `<body>`
 
-* pseudoDB
+* pseudoDB  
     substitute of real remote database. all writen in js object format.
 
-* homepage.js
+* homepage.js  
     placeholder / frame to put all the components together
 
