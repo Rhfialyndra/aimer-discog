@@ -114,7 +114,7 @@ function Home() {
                                             <div className=" w-44 h-52 sm:w-56 sm:h-64 max-w-xs overflow-hidden rounded-xl shadow-md bg-gray-100 hover:shadow-xl transition-shadow duration-300 ease-in-out">
                                                 <article className="tile">
                                                 <img src={album['cover']} alt="" className=" max-h-60 rounded-t-xl"/>
-                                                <h4 className=" ml-2 mt-1 sm:ml-3 sm:mt-2 text-xs font-Montserrat font-semibold text-indigo-500">{album['Album']}</h4>
+                                                <h4 className=" ml-2 mt-1 sm:ml-3 sm:mt-2 text-xs font-Montserrat font-semibold text-indigo-500">{(album['Album'].includes('(') ? album['Album'].slice(0, album['Album'].indexOf('(') - 1) :album['Album'])}</h4>
                                                 <p className=" ml-2 sm:ml-3 mt-1 text-sm text-gray-700">{album['Date']}</p>
                                                 </article>
                                             </div>
