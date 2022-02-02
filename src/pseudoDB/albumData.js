@@ -98,6 +98,15 @@ var albums = [
     "Tracklist": ["01. Walpurgis -prologue-", "02. STAND-ALONE", "03. cold rain", "04. trill (トリル)", "05. Chikyuugi (地球儀) with Vaundy", "06. SPARK-AGAIN", "07. wonderland", "08. Torches", "09. marie", "10. ever after", "11. hollow-mas", "12. Kiro (季路)", "13. Haru wa Yuku (春はゆく)", "14. Walpurgis"],
     "spotifyID": "3iFkNa8SRNFHD7La40UqUz",
     "ytmusicID": "OLAK5uy_mJadflXRdk_idls1QtWcl94WVGOLrnlq8"
+  },
+  {
+    "Album": "Hoshi no Kieta Yoru ni (星の消えた夜に)",
+    "Artist": "Aimer",
+    "Date": 2022,
+    "cover": "/img_data/hoshi no kieta.jpg",
+    "Tracklist": ["1. Run Riot","2. Work it out","3. Mine","4. Ophelia","5. Spica (スピカ)","6. Natsukusa ni Kimi wo Omou (夏草に君を想う)","7. tone","8. Kanashimi no Mukougawa (悲しみの向こう側)","9. Blind to you","10. my sweetest one","11. Kyou Kara Omoide (今日から思い出)","12. Ash flame","13. Daisy","14. Even Heaven","15. Hoshi no Kieta Yoru ni (星の消えた夜に)","16. ONE AND LAST","17. trill -starless night ver.- (トリル)","18. Grace Note (グレースノート)","19. Hoshi no Kieta Yoru ni -rit. ver.- (星の消えた夜に)","20. September-san (セプテンバーさん) (Original: Noda Yojiro of RADWIMPS)","21. Raining (original: Cocco)","22. Ito (糸) (original: Nakajima Miyuki)","23. Hanataba no Kawari ni Melody wo (花束のかわりにメロディーを) (original: Shimizu Shota)"],
+    "spotifyID": "1mR8kxKKuBobjRXaZjHWw4",
+    "ytmusicID": "OLAK5uy_kARaUOhWVGZkilMWXB2PKjt3UQ49bf2SU"
   }
  
 ]

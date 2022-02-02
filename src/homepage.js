@@ -153,11 +153,17 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="livePerformance-wrapper text-center">
+                <section className="livePerformance-wrapper text-center">
                         <h1 className="text-3xl my-16 md:mb-28 md:text-7xl text-center font-Montserrat font-bold text-pink-700 subpixel-antialiased filter drop-shadow-xl gray-200 select-none">
                             Live Performance
                         </h1>
-                </div>
+                        
+                        <div>
+
+                            
+                        </div>
+
+                </section>
 
             </div>
             <div className="footer-wrapper">
