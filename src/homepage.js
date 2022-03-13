@@ -157,7 +157,7 @@ function Home() {
                         <h1 className="text-3xl my-16 md:mb-28 md:text-7xl text-center font-Montserrat font-bold text-pink-700 subpixel-antialiased filter drop-shadow-xl gray-200 select-none">
                             Live Performance
                         </h1>
-                        <h1 clasName="text-xl text-center text-red-700 drop-shadow-xl">This project is on halt due to lack of consistent resource and design. will be back in the future</h1>
+                        <h1 className="text-xl text-center text-red-700 drop-shadow-xl">This project is on halt due to lack of consistent resource and design. will be back in the future</h1>
                         
                         <div>
 
